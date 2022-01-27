@@ -2,12 +2,22 @@
 
 <h1>Posts</h1>
 
+<div id="hello">
+  {{message}}
+  
+  <app></app>
+
+  <posts-index :posts="<%= @posts.to_json %>"></posts-index>
+</div>
+
+
 <table>
   <thead>
     <tr>
-      <th>Name my frame</th>
-      <th>Title shmitle</th>
+      <th>Name</th>
+      <th>Title</th>
       <th>Content</th>
+      <th>Fnuppe</th>
       <th colspan="3"></th>
     </tr>
   </thead>
